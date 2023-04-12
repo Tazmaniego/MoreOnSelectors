@@ -6,7 +6,7 @@ class FormPage extends Page {
         return $('#wb-cont'); //uses Element with certain text selector
     }
      // Email Selector
-     get inputEmail() {
+    get inputEmail() {
           return $("#mail"); //uses CSS query selector
     }
 
@@ -31,8 +31,8 @@ class FormPage extends Page {
         await this.submit.click();
     }
 
-     open() {
-          return super.open('');
-     }
+    open() {
+        return super.open('');
+    }
 }
 export default new FormPage();
