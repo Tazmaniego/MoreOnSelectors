@@ -7,7 +7,7 @@ class FormPage extends Page {
     }
      // Email Selector
     get inputEmail() {
-          return $("#mail"); //uses CSS query selector
+        return $("#mail"); //uses CSS query selector
     }
 
     get submit() {
@@ -19,11 +19,11 @@ class FormPage extends Page {
     }
 
     get title() {
-    return $('#title1')
+        return $('#title1')
     }
 
     get titleEsq() {
-    return $('#title1 > option:nth-child(3)')
+        return $('#title1 > option:nth-child(3)')
     }
 
     async emailInput() {
